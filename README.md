@@ -26,8 +26,7 @@ The project includes:
 - **Libraries:**  
   - `pandas` – Data handling  
   - `scikit-learn` – TF-IDF, model training, evaluation  
-  - `streamlit` (optional) – Simple UI for trying the model interactively  
-  - `matplotlib` / `seaborn` – Visualizing performance (optional)
+  - `streamlit` – Simple UI for trying the model interactively  
 
 ---
 ##  How to Run
