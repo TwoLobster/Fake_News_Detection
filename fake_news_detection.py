@@ -10,6 +10,8 @@ df = pd.read_csv('news.csv')
 
 # Prepare the data
 df['combined'] = df['title'] + " " + df['text']
+df['label'] = df['label'].str.strip()
+
 X = df['combined']
 y = df['label']
 
